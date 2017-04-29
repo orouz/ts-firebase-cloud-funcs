@@ -7,6 +7,11 @@
     "build": "rm -rf lib && tsc -p .",
     "deploy": "npm run build && firebase deploy --only functions"
   },
-  "author": "",
+    "dependencies": {
+    "cors": "^2.8.1",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.5"
+  },
+  "author": "Or Ouziel",
   "license": "ISC"
 }
