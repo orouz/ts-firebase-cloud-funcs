@@ -1,0 +1,21 @@
+
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "./lib",
+         "moduleResolution": "node",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "removeComments": false,
+        "stripInternal": true
+    },
+    "lib": ["es2015", "es2015.promise"],
+    "include":[
+        "src"
+    ],
+    "typeRoots":["node_modules/@types"]
+}
