@@ -1,0 +1,12 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc -p .",
+    "deploy": "npm run build && firebase deploy --only functions"
+  },
+  "author": "",
+  "license": "ISC"
+}
